@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <Header />
         <Skills />
         <About />

@@ -27,15 +27,15 @@ const Contact = () => {
 
   return (
     <div id="contact" className="h-screen">
-      <div className="mt-12">
-        <h1 className="md:pt-24 text-xl md:text-2xl font-bold text-[#5151FF] flex items-center gap-6">
+      <div className="mt-84 md:mt-48 px-6">
+        <h1 className="md:pt-24 text-xl md:text-2xl font-bold text-[#5151FF] flex items-center gap-6 mb-12">
           <div className="h-[45px] w-[5px] bg-[#5151FF]" />
           Contact
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 md:mt-24">
           <div>
-            <img src="/assets/laptop.jpg" alt="laptop" className="w-[500px]" />
+            <img src="./assets/laptop.jpg" alt="laptop" className="w-[500px]" />
             <p className="mt-6 font-bold text-lg md:text-2xl text-gray-600">Mfihlo Dlamini</p>
             <p className="text-lg md:text-xl text-gray-600">Front End Web Developer</p>
             <div className="flex mt-8 gap-8 text-gray-600">
@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <form onSubmit={handleSubmit} className="flex flex-col">
+            <form onSubmit={handleSubmit} className="flex flex-col mt-12">
               <input type="hidden" name="access_key" value="2d45d69a-f6c8-4a8f-a0b9-fa8b1a13c364" />
               <input type="text" name="name" placeholder="Name" required className="border-2 border-gray-400 outline-none mb-6 py-4 px-2 rounded-sm" />
               <input type="email" name="email" placeholder="Email" required className="border-2 border-gray-400 outline-none mb-6 py-4 px-2 rounded-sm" />
