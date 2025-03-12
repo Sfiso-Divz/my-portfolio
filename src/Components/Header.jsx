@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div id="home">
+    <div id="home" >
         <div className='flex flex-col justify-center items-center h-screen text-center text-gray-700 px-6'>
             <p className='text-lg md:text-md lg:text-xl'>LETS BUILD TOGETHER</p>
             <h1 className='text-3xl md:text-3xl lg:text-5xl font-bold'>Hi, I'm <span className="text-[#5151FF] font-bold">Mfihlo</span>, Front-end Web Developer</h1>

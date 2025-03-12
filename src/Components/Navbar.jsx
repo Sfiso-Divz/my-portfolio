@@ -9,10 +9,22 @@ const Navbar = () => {
             <div className="w-24" ><a href="/#home"><img src="./assets/M (1).png" alt="logo" /></a></div>
             <ul>
                 <li className='flex gap-4 text-sm'>
-                    <a href="/#home">Home</a>
-                    <a href="/#skills">Skills</a>
-                    <a href="/#about">About</a>
-                    <a href="/#contact">Contact</a>
+                    <a href="/#home" onClick={(e) => { 
+    e.preventDefault();
+    document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });
+}}>Home</a>
+                    <a href="/#skills" onClick={(e) => { 
+    e.preventDefault();
+    document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' });
+}}>Skills</a>
+                    <a href="/#about" onClick={(e) => { 
+    e.preventDefault();
+    document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+}}>About</a>
+                    <a href="/#contact" onClick={(e) => { 
+    e.preventDefault();
+    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+}}>Contact</a>
                 </li>
             </ul>
         </div>

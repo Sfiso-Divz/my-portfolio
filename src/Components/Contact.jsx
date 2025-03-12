@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="h-screen">
+    <div id="contact"  className="h-screen">
       <div className="mt-84 md:mt-48 px-6">
         <h1 className="md:pt-24 text-xl md:text-2xl font-bold text-[#5151FF] flex items-center gap-6 mb-12">
           <div className="h-[45px] w-[5px] bg-[#5151FF]" />
