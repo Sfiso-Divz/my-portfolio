@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='hidden md:flex justify-between items-center max-w-[1200px] mx-auto'>
             <div className="w-24" ><a href="/#home" onClick={(e) => { 
     e.preventDefault();
-    document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });
 }}><img src="./assets/M (1).png" alt="logo" /></a></div>
             <ul>
                 <li className='flex gap-4 text-sm'>
