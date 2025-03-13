@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <form onSubmit={handleSubmit} className="flex flex-col mt-12">
+            <form onSubmit={handleSubmit} className="flex flex-col mt-12 md:mt-0">
               <input type="hidden" name="access_key" value="2d45d69a-f6c8-4a8f-a0b9-fa8b1a13c364" />
               <input type="text" name="name" placeholder="Name" required className="border-2 border-gray-400 outline-none mb-6 py-4 px-2 rounded-sm" />
               <input type="email" name="email" placeholder="Email" required className="border-2 border-gray-400 outline-none mb-6 py-4 px-2 rounded-sm" />
