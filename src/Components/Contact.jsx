@@ -40,13 +40,13 @@ const Contact = () => {
             <p className="text-lg md:text-xl text-gray-600">Front End Web Developer</p>
             <div className="flex mt-8 gap-8 text-gray-600">
               <div className="flex flex-col justify-center items-center cursor-pointer">
-                <a href="https://github.com/Sfiso-Divz" className="mt-2 md:mt-4"><FaGithub size={24} className="text-[#5151FF] mb-2" />Github</a>
+                <a href="https://github.com/Sfiso-Divz" className="mt-2 md:mt-4" target="_blank"><FaGithub size={24} className="text-[#5151FF] mb-2" />Github</a>
               </div>
               <div className="flex flex-col justify-center items-center cursor-pointer">
-                <a href="https://x.com/Sfiso_Divz" className="mt-2 md:mt-4"><FaTwitter size={24} className="text-[#5151FF] mb-2" />Twitter</a>
+                <a href="https://x.com/Sfiso_Divz" className="mt-2 md:mt-4" target="_blank"><FaTwitter size={24} className="text-[#5151FF] mb-2" />Twitter</a>
               </div>
               <div className="flex flex-col justify-center items-center cursor-pointer">
-                <a href="https://www.linkedin.com/in/mfihlo-dlamini-7193092a3/" className="mt-2 md:mt-4"><FaLinkedin size={24} className="text-[#5151FF] mb-2" />LinkedIn</a>
+                <a href="https://www.linkedin.com/in/mfihlo-dlamini-7193092a3/" className="mt-2 md:mt-4" target="_blank"><FaLinkedin size={24} className="text-[#5151FF] mb-2" />LinkedIn</a>
               </div>
             </div>
           </div>
